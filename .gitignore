@@ -1,0 +1,22 @@
+﻿# Configuration (contains sensitive info)
+config.yaml
+
+# LLBot login data and runtime
+llbot/bin/llbot/data/
+llbot/logs/
+llbot/*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+
+# Editor files
+.vscode/
+.idea/

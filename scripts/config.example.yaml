@@ -1,0 +1,20 @@
+﻿# ============================================================
+# QQ Auto Reply - Configuration Template
+# Copy this file as config.yaml and fill in your info
+# ============================================================
+
+# AI Configuration
+ai:
+  api_key: "YOUR_DEEPSEEK_API_KEY"
+  base_url: "https://api.deepseek.com/v1"
+  model: "deepseek-chat"
+
+# System prompt (default style)
+system_prompt: |
+  你是一个友好的QQ聊天助手，请用自然简洁的中文回复。
+
+# Conversation context length
+context_length: 5
+
+# Friends to auto-reply (leave empty and use friend_selector.py)
+friends: []
